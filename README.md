@@ -6,6 +6,39 @@ Material Food Icons
 
 Loading icons created by Creative Stall from Noun Project to make them available to the ThymeSave app.
 
+# Usage
+
+Recommend way of using is to put the name of the icon inside a `.material-food-icons`:
+
+```html
+<i class="material-food-icons">cherries</i>
+```
+
+# Installation
+
+## with npm:
+
+```sh
+npm i --save @thymesave/material-food-icons
+```
+
+Then you can include the font from `@thymesave/material-food-icons/font/material-food-icons/.{ttf|woff|woff2|css}`.
+
+## including from GitHub Pages (not recommended for production usage)
+
+If you just want to play around you can also include the CSS directly from GitHub Pages:
+
+```html
+<link rel="stylesheet" href="https://thymesave.app/material-food-icons/font/material-food-icons.css"/>
+```
+
+# Credits
+
+- Icons are created
+  by [Creative Stall from Noun Project](https://thenounproject.com/browse/collection-icon/food-and-drinks-material-design-icon-16326/?p=1)
+
+# Development
+
 ## Updating
 
 - Get current active icons via API: https://thenounproject.com/api/
@@ -17,7 +50,3 @@ Loading icons created by Creative Stall from Noun Project to make them available
 - The API calls are not scripted, since effort is not worth it
 - project is seperated from silverware to limit the scope
 
-## Credits
-
-- Icons are created
-  by [Creative Stall from Noun Project](https://thenounproject.com/browse/collection-icon/food-and-drinks-material-design-icon-16326/?p=1)
