@@ -1,0 +1,32 @@
+{
+  "name": "@thymesave/material-food-icons",
+  "version": "1.0.0",
+  "description": "Material Food icons based on Food and Drinks Material Design Icon by Creative Stall",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "test": "test",
+    "generate:load-icons": "node ./loadIcons.js",
+    "generate:font": "node ./convertToFont.js",
+    "generate": "npm run generate:load-icons && npm run generate:font"
+  },
+  "files": [
+    "font"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThymeSave/material-food-icons.git"
+  },
+  "author": "Timo Reymann <mail@timo-reymann.de>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ThymeSave/material-food-icons/issues"
+  },
+  "homepage": "https://github.com/ThymeSave/material-food-icons#readme",
+  "devDependencies": {
+    "axios": "^1.2.0",
+    "pipeline-pipe": "^0.3.0",
+    "potrace": "^2.1.8",
+    "svgtofont": "^3.21.0"
+  }
+}
