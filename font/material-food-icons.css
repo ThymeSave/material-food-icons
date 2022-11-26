@@ -1,16 +1,16 @@
 @font-face {
   font-family: "material-food-icons";
-  src: url('material-food-icons.eot?t=1669417391145'); /* IE9*/
-  src: url('material-food-icons.eot?t=1669417391145#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("material-food-icons.woff2?t=1669417391145") format("woff2"),
-  url("material-food-icons.woff?t=1669417391145") format("woff"),
-  url('material-food-icons.ttf?t=1669417391145') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('material-food-icons.svg?t=1669417391145#material-food-icons') format('svg'); /* iOS 4.1- */
+  src: url('material-food-icons.eot?t=1669457872459'); /* IE9*/
+  src: url('material-food-icons.eot?t=1669457872459#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("material-food-icons.woff2?t=1669457872459") format("woff2"),
+  url("material-food-icons.woff?t=1669457872459") format("woff"),
+  url('material-food-icons.ttf?t=1669457872459') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('material-food-icons.svg?t=1669457872459#material-food-icons') format('svg'); /* iOS 4.1- */
 }
 
 .material-food-icons {
   font-family: 'material-food-icons' !important;
-  font-size:50px;
+  font-size:24px;
   font-style:normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

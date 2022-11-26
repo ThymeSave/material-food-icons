@@ -14,7 +14,7 @@ const path = require('path');
             fontHeight: 1000,
         },
         css: {
-            fontSize: "50px",
+            fontSize: "24px",
         },
         metadata: "Icons by Creative Stall<https://thenounproject.com/creativestall/>",
         website: {
